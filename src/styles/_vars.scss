@@ -1,0 +1,27 @@
+$primary-color: #00bcd4;
+$body-color: #272932;
+$text-color: #fffffc;
+$fontsize-h1: 2.5rem;
+$fontsize-h2: 1.5rem;
+$fontsize-h3: 1.2rem;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: $body-color;
+  color: $text-color;
+}
+
